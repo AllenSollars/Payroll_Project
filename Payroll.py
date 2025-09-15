@@ -1,3 +1,8 @@
-a = input()
+hours = input("enter hours worked: ")
 
-b = input("hello: ")
+
+if hours < 40: 
+    grossPay = (float(hours)) * 13.75
+else:
+    print("error, too many hours worked")
+print(grossPay)
