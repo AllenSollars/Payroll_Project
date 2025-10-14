@@ -40,3 +40,22 @@ totalTax = stateTax + federalTax
 
 netPay = grossPay - totalTax
 
+employee = {
+    "name": name,
+    "userId": userId,
+    "hoursWorked": hoursWorked,
+    "overtimeHours": overtimeHours,
+    "grossPay": grossPay,
+    "overtimePay": overtimePay,
+    "stateTax": stateTax,
+    "federalTax": federalTax,
+    "netPay": netPay
+}
+
+print(employee)
+
+# Write employee data to a file
+with open("workersheet.txt", "a") as f:
+    f.write("\n--- New Employee ---\n")
+    for key, value in employee.items():
+        f.write(f"{key}: {value}\n")
