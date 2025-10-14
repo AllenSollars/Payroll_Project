@@ -1,0 +1,11 @@
+#tax rates
+federaltaxRate = 0.079
+stateTaxRate = 0.056
+
+#calculate taxes based on gross pay
+stateTax = grossPay * stateTaxRate
+federalTax = grossPay * federaltaxRate
+totalTax = stateTax + federalTax
+
+#calculate your net pay (payment including taxes)
+netPay = grossPay - totalTax
