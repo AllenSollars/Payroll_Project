@@ -1,0 +1,22 @@
+
+--- New Employee ---
+name: employee1
+userId: 1234
+hoursWorked: 20.0
+overtimeHours: 25.0
+grossPay: 790.625
+overtimePay: 515.625
+stateTax: 44.275
+federalTax: 62.459375
+netPay: 683.890625
+
+--- New Employee ---
+name: employee2
+userId: 2345
+hoursWorked: 40.0
+overtimeHours: 0.0
+grossPay: 550.0
+overtimePay: 0
+stateTax: 30.8
+federalTax: 43.45
+netPay: 475.75
